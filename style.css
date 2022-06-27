@@ -1,0 +1,26 @@
+body{
+    background-image: linear-gradient(rgb(67, 65, 65),rgb(154, 154, 154),rgb(67, 65, 65));
+}
+h1{
+    font-family: 'Meddon', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45%;
+}
+.btn-danger{
+   font-size: 25px;
+   font-family: 'Meddon', cursive;
+}
+canvas{
+    border: 10px solid black;
+    margin-top: 85px;
+
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    from{box-shadow: 1px 1px 100px white;}
+    to{box-shadow: 1px 1px 100px burlywood;}
+}
